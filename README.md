@@ -1,6 +1,6 @@
 # RTR105
 ## 
-Strudiju kursa Datormācība (pamatkurss) elektroniskā klade  [^1]   
+Studiju kursa Datormācība (pamatkurss) elektroniskā klade  [^1]   
 Satura rādītājs
 - 1.sadaļa
 - 2.sadaļa
@@ -15,10 +15,9 @@ Piemērs ar sarakstu (1.):
 - 3.elements  
   
 Piemērs ar sarakstu (2.):
-* 1.elements
-* 2.elements
-* 3.elements
-
+* *1.elements*
+* <sub>2.elements</sub>
+* ~~3.elements~~
 
 Piemērs ar sarakstu (3.):
 1. elements
@@ -36,6 +35,6 @@ Piemērs ar sarakstu (5.):
 - [ ] 3.elements
 
 
-Piemērs ar emoji 😬
+Piemērs ar emoji 😬:+1::watermelon::brain::relieved:
 
 [^1]: Piemērs ar atsauci 
