@@ -55,7 +55,6 @@ q - iziet ārā
 d = directory  
 rwx = read write execute  
 
-
 who un whoami - lietotāja noskaidrošana  
 man - manual  
 echo $0 - bash  
@@ -63,4 +62,23 @@ pwd/home/user
 ls -l = iekšējo objektu saraksts  
 ls -a = rāda arī paslēptos objektus  
 lai paslēptu, jāliek nosaukuma priekšā punkts  
+
+mkdir = make directory  
+rm - nodzēst failu  
+rmdir - nodzēst mapīti  
+
+cd = change directory  
+cd . = šeit  
+cd .. = saknes apgabalā  
+cd ~ vai cd vai cd /home cd ./user = nokļūšana mājas apgabalā  
+
+cat - palasīt faila saturu  
+hexdump -C = burtu heksadecimālie kodi  
+
+git clone - download repozitoriju  
+git add . – pievienot  
+git config --global user.email ak29424048@gmail.com  
+git config --global user.name Agusik1  
+git commit -m  
+gti push origin main    
 
