@@ -80,5 +80,5 @@ git add . – pievienot
 git config --global user.email ak29424048@gmail.com  
 git config --global user.name Agusik1  
 git commit -m  
-gti push origin main    
+git push origin main    
 
