@@ -38,3 +38,29 @@ Piemērs ar sarakstu (5.):
 Piemērs ar emoji 😬:+1::watermelon::brain::relieved:
 
 [^1]: Piemērs ar atsauci 
+
+##
+**KONSPEKTS**
+
+Ctrl + Alt + T = atvērt logu  
+Ctrl + Shift + -/+ = samazināt/palielināt  
+Ctrl + Shift + T = jauns tabs eksistējošā logā  
+Ctrl + L = aiztin uz augšu  
+Ctrl + O = write name  
+
+~$ - atrašanās failu sistēmā Home Directory  
+-C - atslēga  
+
+q - iziet ārā  
+d = directory  
+rwx = read write execute  
+
+
+who un whoami - lietotāja noskaidrošana  
+man - manual  
+echo $0 - bash  
+pwd/home/user  
+ls -l = iekšējo objektu saraksts  
+ls -a = rāda arī paslēptos objektus  
+lai paslēptu, jāliek nosaukuma priekšā punkts  
+
