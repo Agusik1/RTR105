@@ -20,9 +20,9 @@ Piemērs ar sarakstu (2.):
 * ~~3.elements~~
 
 Piemērs ar sarakstu (3.):
-1. elements
-2. elements
-3. elements
+1. sadaļa
+2. sadaļa
+3. sadaļa
 
 Piemērs ar sarakstu (4.):
 * 1.elements
