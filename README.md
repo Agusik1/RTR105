@@ -75,3 +75,10 @@ cd ~ vai cd vai cd /home cd ./user = nokļūšana mājas apgabalā
 cat - palasīt faila saturu  
 hexdump -C = burtu heksadecimālie kodi  
 
+git clone - download repozitoriju  
+git add . – pievienot  
+git config --global user.email ak29424048@gmail.com  
+git config --global user.name Agusik1  
+git commit -m  
+git push origin main    
+
