@@ -1,0 +1,16 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  chrome
+    4  explorer
+    5  uname
+    6  man uname
+    7  uname --a
+    8  uname --all
+    9  firefox &
+   10  echo $0
+   11  whoami
+   12  who
+   13  pwd
+   14  ls -l
+   15  history
+   16  history > history_20220913a.txt
