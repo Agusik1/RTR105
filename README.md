@@ -57,7 +57,7 @@ rwx = read write execute
 
 who un whoami - lietotāja noskaidrošana  
 man - manual  
-echo $0 - bash  
+echo $0 - bash (shell paveids)    
 pwd/home/user  
 ls -l = iekšējo objektu saraksts  
 ls -a = rāda arī paslēptos objektus  
@@ -84,3 +84,13 @@ git push origin main
 
 uname - noskaidrot operētājsistēmu
 man uname - informācija par atslēgām 
+ps - kādi procesi palaisti
+ps -aux = kādi procesi palaisti detalizēti
+kill = apturēt procesu
+rm -rf = rekursīvi nodzēst visu māli bez papildus jautājumiem
+rm dir = nodzēst direktoriju
+mv = pārcelt
+Shift Insert = paste
+
+mv ~/history_20220913a.txt 
+
