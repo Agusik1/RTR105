@@ -9,7 +9,7 @@ Satura rādītājs
 [Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github)
 ![This is an image](https://www.rtu.lv/writable/public_files/b_RTU_etf50.jpg)
 
-[1. sadaļā]: Piemērs ar sarakstu (1.):
+Piemērs ar sarakstu (1.):
 - 1.elements
 - 2.elements
 - 3.elements  
