@@ -82,7 +82,8 @@ git config --global user.name Agusik1
 git commit -m  
 git push origin main    
 
-uname - noskaidrot operētājsistēmu    
+uname - noskaidrot operētājsistēmu 
+(uname -a vai uname -all)
 man uname - informācija par atslēgām    
 ps - kādi procesi palaisti  
 ps -aux = kādi procesi palaisti detalizēti  
