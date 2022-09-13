@@ -82,15 +82,16 @@ git config --global user.name Agusik1
 git commit -m  
 git push origin main    
 
-uname - noskaidrot operētājsistēmu
-man uname - informācija par atslēgām 
-ps - kādi procesi palaisti
-ps -aux = kādi procesi palaisti detalizēti
-kill = apturēt procesu
-rm -rf = rekursīvi nodzēst visu māli bez papildus jautājumiem
-rm dir = nodzēst direktoriju
-mv = pārcelt
-Shift Insert = paste
+uname - noskaidrot operētājsistēmu    
+man uname - informācija par atslēgām    
+ps - kādi procesi palaisti  
+ps -aux = kādi procesi palaisti detalizēti  
+kill = apturēt procesu  
+rm -rf = rekursīvi nodzēst visu māli bez papildus jautājumiem  
+rm dir = nodzēst direktoriju  
+mv = pārcelt  
+Shift Insert = paste  
 
 mv ~/history_20220913a.txt 
 
+[tutorialspoint](https://tutorialspoint.com/unix/unix-special-variables.htm)
