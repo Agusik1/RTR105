@@ -3,13 +3,13 @@
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  [^1]   
 
 Satura rādītājs
-- [1.sadaļa](#1.sadaļa)
-- [2.sadaļa](#2.sadaļa)
+- [1.sadaļa](#1.sadaļa) [^2]
+- [2.sadaļa](#2.sadaļa) [^3]
 
 [Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github)
 ![This is an image](https://www.rtu.lv/writable/public_files/b_RTU_etf50.jpg)
 
-Piemērs ar sarakstu (1.):
+[^2]: Piemērs ar sarakstu (1.):
 - 1.elements
 - 2.elements
 - 3.elements  
