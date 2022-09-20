@@ -111,3 +111,48 @@
   111  ls -lt
   112  history
   113  history > history_20220920.txt
+  114  ls -lt
+  115  git-upload
+  116  nano git
+  117  nano git-upload
+  118  git-upload
+  119  ls -lt
+  120  nano git-upload
+  121  echo $PATH
+  122  nano git-tutorials
+  123  nano special_variables_test.sh
+  124  ls -lt
+  125  chmod special_variables_test.sh
+  126  nano special_variables_test.sh
+  127  chmod 764 special_variables_test.sh
+  128  ls -lt special_variables_test.sh
+  129  nano special_variables_test.sh
+  130  special_variables_test.sh
+  131  nano special_varibales_test.sh
+  132  fg
+  133  nani special_variables_test.sh
+  134  nano special_variables_test.sh
+  135  special_variables_test.sh
+  136  nano special_variables_test.sh
+  137  special_variables_test.sh
+  138  nano special_variables_test.sh
+  139  ls -lt
+  140  nano special_variables_test.sh
+  141  ls -lt
+  142  sh
+  143  echo $PATH
+  144  special_variables_test.sh arg1 arg2
+  145  nano special_variables_test.sh
+  146  special_variables_test.sh arg1 arg2
+  147  nano special-variables-test.sh
+  148  fg
+  149  nano special-variables-test.sh
+  150  echo $0
+  151  cp special_variables_test.sh
+  152  special_variables_test.sh
+  153  nano special-variables-test.sh
+  154  special_variables_test.sh
+  155  special_variables_test.sh arg1 arg2
+  156  nano git-upload
+  157  git-upload 05
+  158  history > history_20220920.txt
