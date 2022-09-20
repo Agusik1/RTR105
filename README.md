@@ -98,6 +98,6 @@ mv ~/history_20220913a.txt
 [tutorialspoint](https://tutorialspoint.com/unix/unix-special-variables.htm) 
 
 ls 
-whereis ls
-ls -lt /bin/ls
+whereis ls  
+ls -lt /bin/ls  
 
