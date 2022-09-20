@@ -35,3 +35,79 @@
    35  pwd
    36  history
    37  history > history_20220920.txt
+   38  ls -lt
+   39  cat history_20220920.txt
+   40  /home/user/RTR105/git-upload
+   41  chmod 764 git-upload
+   42  ls -lt git-upload
+   43  git-upload
+   44  echo $PATH
+   45  pwd
+   46  git-
+   47  git-pwd
+   48  pwd
+   49  echo $0
+   50  git-git-upload
+   51  ls -lt
+   52  pwd
+   53  echo $PATH
+   54  ls -lt
+   55  ./git-upload 
+   56  ./git-upload
+   57  ./git-upload 
+   58  ls -lt
+   59  ./git-upload
+   60  nano
+   61  nano git-upload
+   62  nano git-uplaod
+   63  fg
+   64  nano git-upload
+   65  ./git-upload
+   66  nano-upload
+   67  nano git-upload
+   68  ./git-upload
+   69  nano git-upload
+   70  ./git-upload
+   71  nano git-upload
+   72  ./git-upload
+   73  cat git-upload 
+   74  nano git-upload 
+   75  ./git-upload
+   76  nano git-upload 
+   77  ./git-upload
+   78  git pull
+   79  ./git-upload
+   80  cd ..
+   81  pwd
+   82  rm -rf RTR105
+   83  ls -lt
+   84  pwd
+   85  ls -lt
+   86  history | grep clone
+   87  git clone https://github.com/Agusik1?RTR105
+   88  ls -lt
+   89  git clone https://github.com/Agusik1/RTR105
+   90  ls -lt
+   91  pwd
+   92  cd ..
+   93  cd RTR105
+   94  cd RTR105/
+   95  ls -lt
+   96  cd RTR105/
+   97  pwd
+   98  cd..
+   99  cd RTR105/
+  100  ls -lt
+  101  cd
+  102  echo $PATH
+  103  cd RTR105?
+  104  cd RTR105/
+  105  PATH=$PATH
+  106  echo $PATH
+  107  PATH=$PATH:./
+  108  echo $PATH
+  109  git-
+  110  history > history_20220920.txt
+  111  ls -lt
+  112  history
+  113  history > history_20220920.txt
