@@ -83,7 +83,7 @@ git commit -m
 git push origin main    
 
 uname - noskaidrot operētājsistēmu 
-(uname -a vai uname -all)
+(uname -a vai uname -all)  
 man uname - informācija par atslēgām    
 ps - kādi procesi palaisti  
 ps -aux = kādi procesi palaisti detalizēti  
@@ -99,15 +99,24 @@ mv ~/history_20220913a.txt
 
 ls 
 whereis ls  
-ls -lt (lt - atslēgas)  ls /bin/ls (arguments) root - faila owner
+ls -lt (lt - atslēgas)  
+ls /bin/ls (arguments) root - faila owner /bin/ls <- adreses pieraksta pēdējā daļa ir fails  
+rwxr-xr-x <- izpildīšanas tiesības  
 cd /bin  
 ls -l ls   
 cat ls (lasīt failus ar izpildīšanas tiesībām)  
 echo $PATH - mapes, ko caurskata dators, izpildot whereis ls  
 chmod - tiesību nomaiņa  
 
-ctrl insert = Ctrl+C
 
+ctrl insert = Ctrl+C  
+ctrl+K  
+ctrl+U  
+- = fails, attiecībā uz kuru ir ieslēgtas izpildīšanas tiesības  
+= <- piešķiršanas zīme  
+
+*nano = teksta redaktors    
+*komanda ir izpildāmais fails ar instrukcijām, kas tiek sameklēts caurskatāmo mapju sarakstā  
 
 #!/bin/bash  
 git add . #komanda "uzmanāmo" mapju pievienošanai  
@@ -115,6 +124,8 @@ git config --global user.email ak29424048@gmail.com
 git config --global user.name Agusik1  
 git commit -m "Class_04b"  
 git push origin main  
+
+rwxr-xr-x = izpildīšanas tiesības
 
 
 
