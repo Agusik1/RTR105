@@ -112,7 +112,7 @@ chmod - tiesību nomaiņa
 ctrl insert = Ctrl+C  
 ctrl+K  
 ctrl+U  
-- = fails, attiecībā uz kuru ir ieslēgtas izpildīšanas tiesības  
+- <- fails, attiecībā uz kuru ir ieslēgtas izpildīšanas tiesības  
 = <- piešķiršanas zīme  
 
 *nano = teksta redaktors*    
@@ -128,8 +128,12 @@ git push origin main
 history - vēsture  
 grep - patterns  
 nano git-upload  
-/home/user/RTR105/git-uplaod
-chmod 764 git-upload
+/home/user/RTR105/git-uplaod  
+chmod 764 git-upload  
+
+./ = šo direktoriju  
+git- Tab  
+bash - Bourne Again Shell  
 
 
 
