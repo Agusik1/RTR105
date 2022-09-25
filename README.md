@@ -115,8 +115,8 @@ ctrl+U
 - = fails, attiecībā uz kuru ir ieslēgtas izpildīšanas tiesības  
 = <- piešķiršanas zīme  
 
-*nano = teksta redaktors    
-*komanda ir izpildāmais fails ar instrukcijām, kas tiek sameklēts caurskatāmo mapju sarakstā  
+*nano = teksta redaktors*    
+*komanda ir izpildāmais fails ar instrukcijām, kas tiek sameklēts caurskatāmo mapju sarakstā*  
 
 #!/bin/bash  
 git add . #komanda "uzmanāmo" mapju pievienošanai  
