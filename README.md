@@ -125,8 +125,8 @@ git config --global user.name Agusik1
 git commit -m "Class_04b"  
 git push origin main  
 
-history - vēsture  
-grep - patterns  
+history = vēsture  
+grep = patterns  
 nano git-upload  
 /home/user/RTR105/git-uplaod  
 chmod 764 git-upload  
@@ -134,6 +134,10 @@ chmod 764 git-upload
 ./ = šo direktoriju  
 git- Tab  
 bash - Bourne Again Shell  
+
+- rakstīsim pirmkodu
+- kompilēsim
+- izpildīsim
 
 
 
