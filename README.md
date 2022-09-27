@@ -112,7 +112,7 @@ chmod - tiesību nomaiņa
 ctrl insert = Ctrl+C  
 ctrl+K  
 ctrl+U  
-- <- fails, attiecībā uz kuru ir ieslēgtas izpildīšanas tiesības  
+-fails, attiecībā uz kuru ir ieslēgtas izpildīšanas tiesības  
 = <- piešķiršanas zīme  
 
 *nano = teksta redaktors*    
