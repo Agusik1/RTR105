@@ -1,0 +1,15 @@
+ \n - pārceļ kursoru jaunā rindā
+ \t - pārceļ kursoru uz tuvāko tabulācijas pozīciju
+ \v - 
+ \b -
+ \a -
+ \r - 
+
+printf("");
+printf("");
+printf("");
+printf("");
+printf("");
+printf("");
+
+
