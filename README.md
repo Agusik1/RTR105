@@ -139,6 +139,14 @@ bash - Bourne Again Shell
 - kompilēsim
 - izpildīsim
 
+\n - pārceļ kursoru jaunajā rindā
+\t - pārceļ kursoru uz tuvāko tabulācijas pozīciju
+\v - vertikālais tabs
+\b - pārceļ kursoru uz vienu pozīciju atpakaļ
+\a - bip!
+\r - pārceļ kursoru uz rindas sākumu
+
+
 
 
 
