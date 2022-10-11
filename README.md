@@ -88,7 +88,7 @@ man uname - informācija par atslēgām
 ps - kādi procesi palaisti  
 ps -aux = kādi procesi palaisti detalizēti  
 kill = apturēt procesu  
-rm -rf = rekursīvi nodzēst visu māli bez papildus jautājumiem  
+rm -rf = rekursīvi nodzēst visu mapi bez papildus jautājumiem  
 rm dir = nodzēst direktoriju  
 mv = pārcelt  
 Shift Insert = paste  
