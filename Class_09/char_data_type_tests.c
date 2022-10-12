@@ -39,11 +39,11 @@ int main()
  //                                                          0000 0110 (bin) -> 6 (dec)
  //							          rezultātā ir -6
 
- printf("\nb mainīgā vēŗtība pēc vēŗtības piešķiršanas kā simbols: %c\n",b);
- printf("b mainīgā vēŗtība -\"-  kā decimāls sk.: %d\n",b);
- printf("b mainīgā vērtībā -\"-  kā heksadecimāls skaitlis: %#x\n",b);
- printf("b mainīgā vērtības piešķiršana -\"- kā oktāls sk.: %#o\n",b); 
-
+ unsigned char c = 320;	
+ printf("\nc mainīgā vēŗtība pēc vēŗtības piešķiršanas kā simbols: %c\n",c);
+ printf("c mainīgā vēŗtība -\"-  kā decimāls sk.: %d\n",c);
+ printf("c mainīgā vērtībā -\"-  kā heksadecimāls skaitlis: %#x\n",c);
+ printf("c mainīgā vērtības piešķiršana -\"- kā oktāls sk.: %#o\n",c); 
 
  return 0;
  }
