@@ -8,4 +8,15 @@ int main()
  double d1 = -5.6e4, d2 = 456.8e-3; 
 
 
-// pa kreisi  <<
+// &&
+ c1 = 1;
+ c2 = 2;
+ printf("\%d (%ld bytes) && %d (%ld bytes)",c1,sizeof(c1),c2,sizeof(c2));
+ printf(" = %d (%ld bytes)\n\n",c1&&c2,sizeof(c1&&c2));
+
+ printf("\%d (%ld bytes) && %d (%ld bytes)",c2,sizeof(c2),c1,sizeof(c1));
+ printf(" = %d (%ld bytes)\n\n",c2&&c1,sizeof(c2&&c1));
+
+
+ return 0;
+ }
