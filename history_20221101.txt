@@ -1,0 +1,34 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/Agusik1/RTR105
+    4  cd RTR105
+    5  cd Class_13
+    6  nano foo.h
+    7  nano foo.c
+    8  fg
+    9  nano foo.c
+   10  gcc foo.c
+   11  nano foo.c
+   12  nano main.c
+   13  cat foo.c
+   14  cat foo.h
+   15  gcc main.c
+   16  gcc foo.c
+   17  cat foo.c
+   18  ls -lt
+   19  gcc -Wall -c foo.c
+   20  gcc -Wall foo.c
+   21  gcc -Wall -c foo.c
+   22  ls -lt
+   23  cat foo.o
+   24  ls -lt
+   25  gcc -Wall -c main.c
+   26  gcc -o test_foo_main foo.o main.o
+   27  ls -lt
+   28  gcc -o test_main_foo main.o foo.o
+   29  ls -lt
+   30  ./test_main_foo
+   31  ./test_foo_main
+   32  nano foo.c
+   33  cd ..
+   34  history > history_20221101.txt
