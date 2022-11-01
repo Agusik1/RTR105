@@ -1,0 +1,65 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  git clone https://github.com/Agusik1/RTR105
+    5  cd RTR105
+    6  mkdir Class_13
+    7  cd Class_13
+    8  ls -lt
+    9  nano user_function.c
+   10  gcc user_function.c
+   11  nano user_function.c
+   12  gcc user_function.c
+   13  nano user_function.c
+   14  gcc user_function.c
+   15  ./a.out
+   16  nano user_function.c
+   17  gcc -g user_function.c
+   18  ls -lt
+   19  gdb a.out
+   20  nano user_function.c
+   21  gcc user_function.c
+   22  nano user_function.c
+   23  gcc user_function.c
+   24  ./a.out
+   25  nano user_function.c
+   26  fg
+   27  gcc user_function.c
+   28  ./a.out
+   29  nano user_function.c
+   30  gcc user_function.c
+   31  ./a.out
+   32  nano user_function.c
+   33  gcc user_function.c
+   34  ./a.out
+   35  nano user_function.c
+   36  nano main_with_arguments.c
+   37  gcc main_with_arguments.c
+   38  nano main_with_arguments.c
+   39  gcc main_with_arguments.c
+   40  ./a.out
+   41  cp a.out aaa.out
+   42  ./aaa.out
+   43  ./aaa.out 1
+   44  ./aaa.out 1 abcdefg
+   45  ./a.out 1 a 2 b 
+   46  echo $?
+   47  anno main_with_arguments.c
+   48  nano main_with_arguments.c
+   49  fg
+   50  gcc main_with_arguments.c
+   51  nano main_with_arguments.c
+   52  gcc main_with_arguments.c
+   53  nano main_with_arguments.c
+   54  gcc main_with_arguments.c
+   55  nano main_with_arguments.c
+   56  gcc main_with_arguments.c
+   57  nano_main_with_arguments.c
+   58  nano main_with_arguments.c
+   59  git upload https://github.com/Agusik1/RTR105
+   60  git-upload https://github.com/Agusik1/RTR105
+   61  cd RTR105
+   62  ..
+   63  cd RTR
+   64  cd ..
+   65  history > history20221101
