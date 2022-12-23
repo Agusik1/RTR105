@@ -4,12 +4,12 @@
     char a, b, c;
     int i; 
 
-    printf("Ja vēlaties augošā secībā lūdzu ievadiet(1) \nJa vēlaties dilstošā secībā lūdzu ievadiet(2) \nPēc tam ievadi trīs burtus!\n");
+    printf("Ja vēlaties alfabēta secībā lūdzu ievadiet(1) \nJa vēlaties pretēji alafabētam secībā lūdzu ievadiet(2) \nPēc tam ievadi trīs burtus!\n");
     scanf("%d %c %c %c",&i , &a ,&b ,&c);
 
   if(i == 1){
 
-    if (a <= b && a <= c){   //Augošā secībā
+    if (a <= b && a <= c){   //Alfabēta secībā
        if(b <= c)
             printf("%c, %c, %c \n", a, b, c);
         else
@@ -33,7 +33,7 @@
 
   if(i == 2){
 
-    if (a >= b && a >= c){   //Dilstošā secībā
+    if (a >= b && a >= c){   //Pretēji alfabētam secībā
        if(b >= c)
             printf("%c, %c, %c \n", a, b, c);
         else
