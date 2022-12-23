@@ -49,7 +49,7 @@
 
 
          if(fac1 / n == fac2)
-          printf("Faktoriāla rezultāts ir: %d \n", fac);
+          printf("Faktoriāla rezultāts ir: %d \n", fac1);
          else
           printf("Ar izvēlēto datu tipu skaitlim !%d pareizi aprēķināt faktoriālu nav iespējams! \n", n);
    }
