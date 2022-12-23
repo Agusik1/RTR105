@@ -4,7 +4,7 @@
     char a, b, c;
     int i; 
 
-    printf("Ja vēlieties AUGOŠĀ secībā lūdzu ievadiet(1) \nJa vēlieties DILSTOŠĀ secībā lūdzu ievadiet(2) \nPēc tam ievadi trīs burtus!\n");
+    printf("Ja vēlaties augošā secībā lūdzu ievadiet(1) \nJa vēlaties dilstošā secībā lūdzu ievadiet(2) \nPēc tam ievadi trīs burtus!\n");
     scanf("%d %c %c %c",&i , &a ,&b ,&c);
 
   if(i == 1){
