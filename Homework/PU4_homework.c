@@ -20,7 +20,7 @@
 //CHAR
  if(a == 0x63 || a == 0x43){
   printf("Izvēlētais datu tips char! \n");
-  printf("Lūdzu ievadiet vienu veselu dec skaitli: \n");
+  printf("Luudzu ievadiet vienu veselu dec skaitli: \n");
   scanf("%hhd", &n);
 
 
@@ -58,7 +58,7 @@
 // INT
  if(a == 0x69 || a == 0x49){
   printf("Izvēlētais datu tips int! \n");
-  printf("Lūdzu ievadiet vienu veselu dec skaitli: \n");
+  printf("Luudzu ievadiet vienu veselu dec skaitli: \n");
   scanf("%d", &k);
 
 
@@ -96,7 +96,7 @@
 
  if(a == 0x6C || a == 0x4C){
   printf("Izvēlētais datu tips long long! \n");
-  printf("Lūdzu ievadiet vienu veselu dec skaitli: \n");
+  printf("Luudzu ievadiet vienu veselu dec skaitli: \n");
   scanf("%lld", &y);
 
 
