@@ -2,57 +2,57 @@
 
  int main(){
 
- char i, c, n, e, fac, fac2;
+ char i, c, n, e, fac1, fac2;
  int  h, j, k, l, fac3, fac4;
  long long r, t, y, u, fac5, fac6;
  char a;
 
 // Programmas datu tipa izvēle
-  printf("Izvēlies datu tipa burtu - char(c), int(i), long long(l)! \n");
+  printf("Izvēlieties datu tipa burtu - char(c), int(i), long long(l)! \n");
   scanf("%c", &a);
 // CHAR
  if(a == 0x63 || a == 0x43){
-  printf("Tavs izvēlētais datu tips ir char! \n");
-  printf("Ievadi vienu veselu decimālo skaitli: \n");
+  printf("Izvēlētais datu tips ir char! \n");
+  printf("Luudzu ievadiet vienu veselu dec skaitli: \n");
   scanf("%hhd", &n);
 
 
   if(n == 0)
-    printf("Faktoriāla iznākums ir: 1 \n");
+    printf("Faktoriāla rezultāts ir: 1 \n");
 
   else{
     e = n - 1;
-    fac = 1;
+    fac1 = 1;
     fac2 = 1;
 
     for(i = 1; i <= n; i++){
 
-      fac = fac * i;
+      fac1 = fac1 * i;
      }
 
     for(c = 1; c <= e; c++){
 
       fac2 = fac2 * c;
-      if(fac <= fac2)
+      if(fac1 <= fac2)
       break;
    }
 
-       if(fac2 == fac / n)
-          printf("Faktoriāla iznākums ir: %d \n", fac);
+       if(fac2 == fac1 / n)
+          printf("Faktoriāla rezultāts ir: %d \n", fac1);
        else
-          printf("Skaitlim !%d ar izvēlētu datu tipu pareizi aprēķināt faktoriālu nav iespējams! \n", n);
+          printf("Ar izvēlēto datu tipu !%d pareizi aprēķināt faktoriālu nav iespējams! \n", n);
    }
   }
 
 // INT
  if(a == 0x69 || a == 0x49){
-  printf("Tavs izvēlētais datu tips ir int! \n");
-  printf("Ievadīt vienu veselu decimālo skaitli: \n");
+  printf("Izvēlētais datu tips ir int! \n");
+  printf("Luudzu ievadiet vienu veselu dec skaitli: \n");
   scanf("%d", &k);
 
 
   if(k == 0)
-    printf("Faktoriāla iznākums ir: 1 \n");
+    printf("Faktoriāla rezultāts ir: 1 \n");
 
   else{
     l = k - 1;
@@ -72,21 +72,21 @@
    }
 
        if(fac4 == fac3 / k)
-          printf("Faktoriāla iznākums ir: %d \n", fac3);
+          printf("Faktoriāla rezultāts ir: %d \n", fac3);
        else
-          printf("Skaitlim !%d ar izvēlētu datu tipu pareizi aprēķināt faktoriālu nav iespējams! \n", k);
+          printf("Ar izvēlēto datu tipu !%d pareizi aprēķināt faktoriālu nav iespējams! \n", k);
    }
   }
 
 //LONG LONG
  if(a == 0x6C || a == 0x4C){
-  printf("Tavs izvēlētais datu tips ir long long! \n");
-  printf("Ievadi vienu veselu decimālo skaitli: \n");
+  printf("Izvēlētais datu tips ir long long! \n");
+  printf("Luudzu ievadiet vienu veselu dec skaitli: \n");
   scanf("%lld", &y);
 
 
   if(y == 0)
-    printf("Faktoriāla iznākums ir: 1 \n");
+    printf("Faktoriāla rezultāts ir: 1 \n");
 
   else{
     u = y - 1;
@@ -106,9 +106,9 @@
    }
 
        if(fac6 == fac5 / y)
-          printf("Faktoriāla iznākums ir: %lld \n", fac5);
+          printf("Faktoriāla rezultāts ir: %lld \n", fac5);
        else
-          printf("Skaitlim !%lld ar izvēlētu datu tipu pareizi aprēķināt faktoriālu nav iespējams! \n", y);
+          printf("Ar izvēlēto datu tipu !%lld pareizi aprēķināt faktoriālu nav iespējams! \n", y);
    }
   }
   return 0;
