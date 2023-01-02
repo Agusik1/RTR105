@@ -13,3 +13,4 @@ printf("Summa: %d\n", plus);
 
 return 0;
 }
+
