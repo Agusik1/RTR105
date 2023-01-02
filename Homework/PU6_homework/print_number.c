@@ -4,5 +4,4 @@
 void print_number(int number) 
 {
 printf("%d\n", number);
-  
 }
