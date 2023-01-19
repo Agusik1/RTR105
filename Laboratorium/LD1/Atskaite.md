@@ -19,7 +19,7 @@ Rekurences reizinātājs: <img width="455" alt="image" src="https://user-images.
 ## Algoritms  
 _Šajā darbā izmantosim divas metodes._ 
 - Sāksim ar iebūvēto funkciju y=cosh(x) no matemātikas bibliotēkas. Tā tieši aprēķina hiperoboslikā kosinusa funkciju. Programma izdrukā cosh(x) aprēķināto vērtību.   
-- Un alternatīva metode būs Teilora rindas izmantošana. Gala rezultātā programma izdrukās hiperboliskā kosinusa sadalīšanu Teilora rindā - vizuālo attēlojumu - un virknes pēdējā locekļa vērtību a500 un virknes summu līdz pēdējam loceklim S500. Zemāk parādīts rezultāta piemērs:  
+- Un alternatīva metode būs Teilora rindas izmantošana. Lietotājam būs jāievada konkrētā argumenta **x** vērtība. Gala rezultātā programma izdrukās hiperboliskā kosinusa sadalīšanu Teilora rindā - vizuālo attēlojumu - un virknes pēdējā locekļa vērtību a500 un virknes summu līdz pēdējam loceklim S500. Zemāk parādīts rezultāta piemērs:  
 ```
 Funkcijas cosh(x) aprēķināšana!
 Jūsu ievadītais arguments x: 4
