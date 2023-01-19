@@ -34,7 +34,7 @@ int main() {
     scanf("%lf", &precision);
 
     FILE *fp;
-    fp = fopen("derivativess.dat", "w");
+    fp = fopen("derivative.dat", "w");
   
 if(fp == NULL)
     {
