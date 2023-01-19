@@ -34,7 +34,7 @@ int main() {
     scanf("%lf", &precision);
 
     FILE *fp;
-    fp = fopen("derivative.dat", "w");
+    fp = fopen("derivatives.dat", "w");
   
 if(fp == NULL)
     {
@@ -43,7 +43,7 @@ if(fp == NULL)
     }
   
 fprintf(fp, "\tx\tcosh(x)\t\tcosh\'(x)\t\tcosh\'(x)\t\tcosh''(x)\tcosh''(x)\n\n");
-fprintf(fp, "\t\t\t\tanal. forma\tdife. forma\tanal. forma\tdife. forma\n\n");
+fprintf(fp, "\t\t\t\taf\tdf\taf\tdf\n\n");
 
     double x;
     for (x = a; x <= b; x += precision) {
