@@ -44,13 +44,14 @@ Ctrl + Shift + T = jauns tabs eksistējošā logā
 Ctrl + L = aiztin uz augšu  
 Ctrl + O = write name  
 ```
+```
 ~$ - atrašanās failu sistēmā Home Directory  
 -C - atslēga  
-
+```
+```
 q - iziet ārā  
 d = directory  
 rwx = read write execute  
-
 who un whoami - lietotāja noskaidrošana  
 man - manual  
 echo $0 - bash (shell paveids)    
@@ -58,18 +59,22 @@ pwd/home/user
 ls -l = iekšējo objektu saraksts  
 ls -a = rāda arī paslēptos objektus  
 lai paslēptu, jāliek nosaukuma priekšā punkts  
-
+```
+```
 mkdir = make directory  
 rm - nodzēst failu  
 rmdir - nodzēst mapīti  
-
+```
+```
 cd = change directory  
 cd . = šeit  
 cd .. = saknes apgabalā  
 cd ~ vai cd vai cd /home cd ./user = nokļūšana mājas apgabalā  
-
+```
+```
 cat - palasīt faila saturu  
 hexdump -C = burtu heksadecimālie kodi  
+```
 ```
 git clone - download repozitoriju  
 git add . – pievienot  
@@ -77,6 +82,7 @@ git config --global user.email ak29424048@gmail.com
 git config --global user.name Agusik1  
 git commit -m  
 git push origin main    
+```
 ```
 uname - noskaidrot operētājsistēmu 
 (uname -a vai uname -all)  
@@ -88,7 +94,8 @@ rm -rf = rekursīvi nodzēst visu mapi bez papildus jautājumiem
 rm dir = nodzēst direktoriju  
 mv = pārcelt  
 Shift Insert = paste  
-
+```
+```
 mv ~/history_20220913a.txt 
 
 [tutorialspoint](https://tutorialspoint.com/unix/unix-special-variables.htm) 
@@ -110,10 +117,11 @@ ctrl+K
 ctrl+U  
 -fails, attiecībā uz kuru ir ieslēgtas izpildīšanas tiesības  
 = <- piešķiršanas zīme  
-
+```
+```
 *nano = teksta redaktors*    
 *komanda ir izpildāmais fails ar instrukcijām, kas tiek sameklēts caurskatāmo mapju sarakstā*  
-
+```
 ```
 #!/bin/bash  
 git add . #komanda "uzmanāmo" mapju pievienošanai  
@@ -122,13 +130,14 @@ git config --global user.name Agusik1
 git commit -m "Class_04b"  
 git push origin main  
 ```
-
+```
 history = vēsture  
 grep = patterns  
 nano git-upload  
 /home/user/RTR105/git-uplaod  
 chmod 764 git-upload  
-
+```
+```
 ./ = šo direktoriju  
 git- Tab  
 bash - Bourne Again Shell  
@@ -136,7 +145,7 @@ bash - Bourne Again Shell
 - rakstīsim pirmkodu
 - kompilēsim
 - izpildīsim
-
+```
 ```
 \n - pārceļ kursoru jaunajā rindā  
 \t - pārceļ kursoru uz tuvāko tabulācijas pozīciju  
