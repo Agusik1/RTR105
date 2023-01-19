@@ -14,9 +14,6 @@ scanf("%f",&a);
 printf("Ievadiet intervāla beigu punktu: \n");
 scanf("%f",&b);
   
-printf("Ievadiet intervāla sākuma punktu: \n");
-scanf("%f",&a);
-  
 printf("Pirms ievadiet vērtību, ņemiet vērā, ka dotās funkcijas vērtības nav mazākas par 1 !!!\n");
 printf("Ievadiet funkcijas vērtību, kuru vēlaties atrast: \n");
 scanf("%f",&c);
@@ -31,7 +28,7 @@ if(a>b)
 {
   b=b+a;
   a=b-a;
-  b=b-a
+  b=b-a;
     
 printf("Diemžēl Jūsu norādītais intervāla sākumpunkts ir lielāks par beigu punktu, tāpēc apmainījām tos vietām!\n");
 }
@@ -57,7 +54,7 @@ return 1;
   }
   
   printf("Sakne atrodas intervālā [%.10f;%.10f] ar skaitļa precizitāti aiz komata %.10f\n",a,b,delta_x);
-  printf("Tātad aptuvenā x vērtība ir %.10f\n",((a+b)/2);
+  printf("Tātad aptuvenā x vērtība ir %.10f\n",((a+b)/2));
   printf("Iterāciju skaits: %d \n",reizes);
          
   return 0;
