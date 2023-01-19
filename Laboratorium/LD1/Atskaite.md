@@ -16,6 +16,5 @@ Pēc tam ievadīsim ciklisko vērtību ar komandu **while**:
 
 Atgriezīsim funkcijas vērtību ar komandu **return**:  
 
-Ievadīsim skaitļus ar komandu **float** un **input**:  
 
 
