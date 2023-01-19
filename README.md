@@ -1,8 +1,7 @@
 # RTR105
 ## 
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  [^1]   
-**Pasniedzēja: Tatjana Solovjova**  
-- ![Pasniedzēja: Tatjana Solovjova] `#f03c15`  
+`**Pasniedzēja: Tatjana Solovjova**`    
 
 [Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github)  
 
