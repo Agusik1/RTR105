@@ -3,7 +3,15 @@
 _Rakstot programmu, bieži vien ir nepieciešams zināt matemātiskās metodes. Izmantojot skaitļošanas matemātiskās metodes, ir iespējams izveidot vienkāršākas programmas un atrisināt uzdevumus._ 
 
 Teilora rindas ir funkcijas sadalīšana bezgalīgā pakāpju funkciju summā.  
+Ja funkcijai f(x) dotajā intervālā, kas satur punktu a, eksistē visu kārtu atvasinājumi, tai var pielietot Teilora formulu.  
 Manā variantā dotā funckija ir hiperboliskā funkcija: y=cosh(x)  
+Funkcijas vērtības un atvasinājumi pie x = 0:  
+```
+f(x)=cosh(x), f(0)=1
+f'(x)=sinh(x), f'(0)=0
+f''(x)=cosh(x), f''(0)=1
+f'''(x)=sinh(x), f'''(0)=0
+```
 
 ## Algoritms  
 _Šajā darbā izmantosim divas metodes._ 
