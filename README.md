@@ -96,10 +96,6 @@ mv = pārcelt
 Shift Insert = paste  
 ```
 ```
-mv ~/history_20220913a.txt 
-
-[tutorialspoint](https://tutorialspoint.com/unix/unix-special-variables.htm) 
-
 ls 
 whereis ls  
 ls -lt (lt - atslēgas)  
