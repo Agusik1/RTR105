@@ -53,7 +53,7 @@ return 1;
     reizes++;
   }
   
-  printf("Sakne atrodas intervālā [%.10f;%.10f] ar skaitļa precizitāti aiz komata %.10f\n",a,b,delta_x);
+  printf("Sakne atrodas intervālā [%.10f;%.10f] ar skaitļa precizitāti %.10f\n",a,b,delta_x);
   printf("Tātad aptuvenā x vērtība ir %.10f\n",((a+b)/2));
   printf("Iterāciju skaits: %d \n",reizes);
          
