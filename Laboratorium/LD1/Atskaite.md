@@ -12,6 +12,8 @@ f'(x)=sinh(x), f'(0)=0
 f''(x)=cosh(x), f''(0)=1
 f'''(x)=sinh(x), f'''(0)=0
 ```
+<img width="401" alt="image" src="https://user-images.githubusercontent.com/112925785/213489970-2cd0acfc-f491-41bb-9ab5-03ec6af1359d.png">
+
 
 ## Algoritms  
 _Šajā darbā izmantosim divas metodes._ 
