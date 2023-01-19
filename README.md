@@ -2,8 +2,8 @@
 ## 
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  [^1]   
 **Pasniedzēja: Tatjana Solovjova**  
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`  
-- 
+- ![Pasniedzēja: Tatjana Solovjova] `#f03c15`  
+
 [Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github)  
 
 ![This is an image](https://www.rtu.lv/writable/public_files/b_RTU_etf50.jpg)
