@@ -1,6 +1,6 @@
-	x	cosh(x)		cosh'(x)		cosh'(x)		cosh''(x)	cosh''(x)
+x	cosh(x)		cosh'(x)		cosh'(x)		cosh''(x)	cosh''(x)
 
-			          af	      df	        af	      df
+			           af	      df	        af	      df
 
 0.000000 1.000000 0.000000 0.010000 1.000000 1.000033
 0.020000 1.000200 0.020001 0.030005 1.000200 1.000233
