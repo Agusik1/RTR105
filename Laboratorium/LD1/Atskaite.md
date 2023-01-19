@@ -13,7 +13,7 @@ f''(x)=cosh(x), f''(0)=1
 f'''(x)=sinh(x), f'''(0)=0
 ```
 <img width="401" alt="image" src="https://user-images.githubusercontent.com/112925785/213489970-2cd0acfc-f491-41bb-9ab5-03ec6af1359d.png">  
-Rekurences reizinātājs: <img width="455" alt="image" src="https://user-images.githubusercontent.com/112925785/213495096-c1b618cf-ec1d-440c-b0ef-ca19b3419040.png">
+**Rekurences reizinātājs:** <img width="455" alt="image" src="https://user-images.githubusercontent.com/112925785/213495096-c1b618cf-ec1d-440c-b0ef-ca19b3419040.png">
 
 
 ## Algoritms  
