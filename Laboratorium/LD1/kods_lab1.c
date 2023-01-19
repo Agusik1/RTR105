@@ -40,7 +40,7 @@ printf("a0 = %Le S0 = %lf\n", a, S);
   
  printf("a499 = %Le  S499 = %lf\n", b, S2);
  printf("a500 = %Le  S500 = %lf\n", a, S);
- printf("exp(%lf) caur summu = %lf \n\n", x, S);
+ printf("cosh(%lf) caur summu = %lf \n\n", x, S);
 
 
  printf("            500                              \n");
