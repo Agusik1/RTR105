@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 
-double f(double x)
-{
+double f(double x) {
     return cosh(x);
 }
 
-double df_analytical(double x)
-{ 
+double df_analytical(double x) { 
     return sinh(x);
 }
 
