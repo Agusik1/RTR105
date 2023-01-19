@@ -7,3 +7,7 @@ Dihatomijas metodes algoritms sākas ar intervālu **[a, b]**, kurā funkcijas v
 
 Zemāk tiks parādīts programmas rezultāts.  
 <img width="273" alt="image" src="https://user-images.githubusercontent.com/112925785/213519498-f56d1582-a0d6-4ad1-a587-d867bf50a26b.png">
+
+<img width="806" alt="image" src="https://user-images.githubusercontent.com/112925785/213532779-8d528cc7-3ad7-46c9-904e-cf5c6519e607.png">
+
+_Ar doto sakņu meklēšanas metodi dažos gadījumos nav iespējams atrast sakni, piemēram, ja dotajā intervālā ir pāra skaits sakņu, vai arī, ja abās intervāla pusēs funkcijas vērtība ir ar vienādu zīmi._
