@@ -46,7 +46,7 @@ printf("a0 = %Le S0 = %lf\n", a, S);
  printf("            500                              \n");
  printf("          -------                            \n");
  printf("          \\           2∗k                        \n");
- printf(" %.2f      \\         x                         \n",x);
+ printf("           \\         x                         \n",x);
  printf("cosh(x) =>          -------                        \n");
  printf("           /         (2∗k)!                         \n");
  printf("          /                                  \n");
