@@ -7,7 +7,7 @@ int main()
   double x, y, S, S2;
   int k = 0;
   
-printf("Funkcijas cosh(x) aprēķināšana!\n")
+printf("Funkcijas cosh(x) aprēķināšana!\n");
 printf("Jūsu ievadītais arguments x:");
 scanf("%lf", &x);
   
@@ -33,8 +33,8 @@ printf("a0 = %Le S0 = %lf\n", a, S);
   while(k<500)
   {
     k++;
-    b = b*x*x/(2*k*(2*k-1));;
-    S2 = S2 + bl
+    b = b*x*x/(2*k*(2*k-1));
+    S2 = S2 + b;
     }
  
   
