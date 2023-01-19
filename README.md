@@ -2,10 +2,6 @@
 ## 
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  [^1]   
 
-Satura rādītājs
-- [1.sadaļa](#1.sadaļa)
-- [2.sadaļa](#2.sadaļa) 
-
 [Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github)
 ![This is an image](https://www.rtu.lv/writable/public_files/b_RTU_etf50.jpg)
 
@@ -74,14 +70,14 @@ cd ~ vai cd vai cd /home cd ./user = nokļūšana mājas apgabalā
 
 cat - palasīt faila saturu  
 hexdump -C = burtu heksadecimālie kodi  
-
+```
 git clone - download repozitoriju  
 git add . – pievienot  
 git config --global user.email ak29424048@gmail.com  
 git config --global user.name Agusik1  
 git commit -m  
 git push origin main    
-
+```
 uname - noskaidrot operētājsistēmu 
 (uname -a vai uname -all)  
 man uname - informācija par atslēgām    
@@ -118,12 +114,14 @@ ctrl+U
 *nano = teksta redaktors*    
 *komanda ir izpildāmais fails ar instrukcijām, kas tiek sameklēts caurskatāmo mapju sarakstā*  
 
+```
 #!/bin/bash  
 git add . #komanda "uzmanāmo" mapju pievienošanai  
 git config --global user.email ak29424048@gmail.com    
 git config --global user.name Agusik1  
 git commit -m "Class_04b"  
 git push origin main  
+```
 
 history = vēsture  
 grep = patterns  
@@ -139,13 +137,14 @@ bash - Bourne Again Shell
 - kompilēsim
 - izpildīsim
 
+```
 \n - pārceļ kursoru jaunajā rindā  
 \t - pārceļ kursoru uz tuvāko tabulācijas pozīciju  
 \v - vertikālais tabs  
 \b - pārceļ kursoru uz vienu pozīciju atpakaļ  
 \a - bip!  
 \r - pārceļ kursoru uz rindas sākumu  
-
+```
 
 
 
