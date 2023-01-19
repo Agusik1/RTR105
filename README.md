@@ -1,7 +1,7 @@
 # RTR105
 ## 
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  [^1]   
-`**Pasniedzēja: Tatjana Solovjova**`    
+`Pasniedzēja: Tatjana Solovjova`    
 
 [Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github)  
 
@@ -117,8 +117,8 @@ ctrl+U
 = <- piešķiršanas zīme  
 ```
 ```
-*nano = teksta redaktors*    
-*komanda ir izpildāmais fails ar instrukcijām, kas tiek sameklēts caurskatāmo mapju sarakstā*  
+nano = teksta redaktors    
+komanda ir izpildāmais fails ar instrukcijām, kas tiek sameklēts caurskatāmo mapju sarakstā*  
 ```
 ```
 #!/bin/bash  
