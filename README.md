@@ -41,13 +41,13 @@ Piemērs ar emoji 😬:+1::watermelon::brain::relieved:
 
 ##
 **KONSPEKTS**
-
+```
 Ctrl + Alt + T = atvērt logu  
 Ctrl + Shift + -/+ = samazināt/palielināt  
 Ctrl + Shift + T = jauns tabs eksistējošā logā  
 Ctrl + L = aiztin uz augšu  
 Ctrl + O = write name  
-
+```
 ~$ - atrašanās failu sistēmā Home Directory  
 -C - atslēga  
 
