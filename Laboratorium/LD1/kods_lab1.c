@@ -25,7 +25,7 @@ printf("a0 = %Le S0 = %lf\n", a, S);
   while(k<501)
   {
     k++;
-    a = a * x / k;
+    a = a*x*x/(2*k*(2*k-1));
     S = S + a;
   }
 
@@ -33,7 +33,7 @@ printf("a0 = %Le S0 = %lf\n", a, S);
   while(k<500)
   {
     k++;
-    b = ;
+    b = b*x*x/(2*k*(2*k-1));;
     S2 = S2 + bl
     }
  
@@ -43,19 +43,19 @@ printf("a0 = %Le S0 = %lf\n", a, S);
  printf("exp(%lf) caur summu = %lf \n\n", x, S);
 
 
- printf("       500                              \n");
- printf("     -------                            \n");
- printf("     \\       2∗k                        \n");
- printf(" %.2f \\     x                         \n",x);
- printf("e    =>    -------                        \n");
- printf("      /     (2∗k)!                         \n");
- printf("     /                                  \n");
- printf("     -------                            \n");
- printf("      k=0                               \n");
- printf("                                        \n");
- printf("                           x            \n");
- printf(" Rekurences reizinājums: -----          \n");
- printf("                           k            \n");
+ printf("            500                              \n");
+ printf("          -------                            \n");
+ printf("          \\           2∗k                        \n");
+ printf(" %.2f      \\         x                         \n",x);
+ printf("cosh(x) =>          -------                        \n");
+ printf("           /         (2∗k)!                         \n");
+ printf("          /                                  \n");
+ printf("          -------                            \n");
+ printf("           k=0                               \n");
+ printf("                                 2            \n");
+ printf("                                x           \n");
+ printf(" Rekurences reizinātājs:   -----------          \n");
+ printf("                           (2k-1)∗(2k)            \n");
 
  return 0;
  }
