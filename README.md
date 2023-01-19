@@ -1,8 +1,10 @@
 # RTR105
 ## 
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade  [^1]   
+**Pasniedzēja: Tatjana Solovjova**  
 
-[Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github)
+[Piemērs ar linku](https://docs.github.com/en/get-started/writing-on-github)  
+
 ![This is an image](https://www.rtu.lv/writable/public_files/b_RTU_etf50.jpg)
 
 Piemērs ar sarakstu (1.):
