@@ -42,6 +42,9 @@ if(fp == NULL)
       return 1;
     }
   
+fprintf(fp, "\tx\tcosh(x)\t\tcosh\'(x)\t\tcosh\'(x)\t\tcosh''(x)\tcosh''(x)\n\n");
+fprintf(fp, "\t\t\t\tanal. forma\tdife. forma\tanal. forma\tdife. forma\n\n");
+
     double x;
     for (x = a; x <= b; x += precision) {
         double fx = f(x);
