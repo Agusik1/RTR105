@@ -8,7 +8,7 @@ int main()
   int k = 0;
   
 printf("Funkcijas cosh(x) aprēķināšana!\n");
-printf("Jūsu ievadītais arguments x:");
+printf("Jūsu ievadītais arguments x: ");
 scanf("%lf", &x);
   
 y = cosh(x);
