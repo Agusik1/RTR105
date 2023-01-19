@@ -1,6 +1,6 @@
-	x	cosh(x)		cosh'(x)		cosh'(x)		cosh''(x)	cosh''(x)
+x	cosh(x)	cosh'(x) cosh'(x) cosh''(x) cosh''(x)
 
-				anal. forma	dife. forma	anal. forma	dife. forma
+                  af   	    df	     af	      df
 
 0.000000 1.000000 0.000000 0.255252 1.000000 1.021008
 0.500000 1.127626 0.521095 0.830909 1.127626 1.151315
