@@ -19,3 +19,8 @@ Funkcijas noteiktais integrālis ir laukuma vērtība starp f(x) un x asi. Algor
 
 **Taisnstūra metodes pamatprincips:**  
 Zemintegrāļa funkcijas ietvertais laukums tiek aizstāts ar taisntūra laukumiem, kuru platums ir h, bet augstumu nosaka funkcijas vērtība šajā intervālā. Visprecīzāko rezultātu iegūst, ja taisnstūra augstumu izvēlas intervāla vidū. Tad integrāļa aptuvenā vērtība tiek aprēķināta kā taisntūra laukumu summa, kur taisnstūra laukums ir garums pareizināts ar platumu. 
+
+**Trapeces metodes pamatprincips:**  
+Šī metode ir līdzīga iepriekšējai, tikai šajā gadījumā zemintegrāļa funkcijas ietvertais laukums tiek aizstāts ar trapeces laukumiem. Tad integrāļa aptuvenā vērtība tiek aprēķināta kā trapeču laukumu summa, kur trapeces laukuma formula ir trapeces platuma un funkcijas vidējā augstuma reizinājums vienāda platuma trapeču galapunktos.  
+
+**Simpsona metodes pamatprincips:**
