@@ -5,4 +5,5 @@ Skaitļu kārtošana var tikt realizēta ar dažādām metodēm. Šī laboratori
 
 ## Algoritms
 
-Programma sākas ar dialogu ar lietotāju. No lietotāja tiek sagaidīts ievadīt simbolu (teksta) rindu. Kad tas ir izdarīts, simbolu rinda tiek saglabāta masīvā.  
+Programma sākas ar dialogu ar lietotāju. No lietotāja tiek sagaidīts ievadīt simbolu (teksta) rindu bez atstarpēm. Kad tas ir izdarīts, simbolu rinda tiek saglabāta masīvā.  
+Dotajā simbolu virknē tiek atrasts simbols ar vismazāko un vislielāko vērtību. Tie tiek saglabāti atsevišķos masīvos (ņēmot vērā arī to kārtas numuru). 
