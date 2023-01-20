@@ -8,9 +8,14 @@ void main(){
   char i;
   int summa=0;
   char skaits=0;
+  int len, sum = 0;
+  float avg;
     
  printf("Lūdzu ievadiet simbolu (teksta) rindu: ");
- scanf("%s", &string);
+ scanf("%[^\n]s", string);
+ 
+ len = strlen(string);
+ 
   min[0] = string[0];
   min[1] = 0;
   max[0] = string[0];
@@ -19,15 +24,18 @@ void main(){
  for(i=0; string[i]!='\0';i++)
  {
   summa=summa+string[i];
+  sum += string[i];
  printf("%d. simbola (\"%c\") ASCII vērtība ir %d\n", i+1,string[i],string[i]);
   if(string[i]<min[0]){min[0]=string[i];min[1]=i;}
   if(string[i]>max[0]){max[0]=string[i];max[1]=i;}
  }
-  
-  printf("\nJūsu ievadītā rinda ir %d simbolu gara.\n,i);
+ 
+ avg = (float)sum / len;
+ 
+  printf("\nJūsu ievadītā rinda ir %d simbolu gara.\n",i);
   printf("Minimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",min[1]+1,min[0],min[0]);
   printf("Maksimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",max[1]+1,max[0],max[0]);
-  printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %d, kurai atbilst simbols \"%c\"\n",summa/i,summa/i);
+  printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %.2f\n", avg);
          
 for(int j=0; j<i-1; j++){
   int Imin = j;
@@ -39,12 +47,8 @@ for(int j=0; j<i-1; j++){
   string[j] = temp;
  }
          
- if (i % 2 == 0)
-         median = (string[i/2] + string[i/2 - 1])/2.0;
-  else
-         median = string[i/2];
          
- printf("Simbolu rindas mediāna ir \"%c\", kura vērtība saskaņā ar ASCII ir %d\n", median);
+ printf("Simbolu rindas mediāna ir \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",string[i/2],string[i/2]);
          
 char n=0,m=0;
 char mod[i][2];
