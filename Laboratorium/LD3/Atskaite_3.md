@@ -16,7 +16,8 @@ Atsevišķā failā tiek saglabāta tabula - tajā tiek atspoguļotas:
 - f''(x) vērtības, _x no a līdz b_; izmantojot atvasinājuma analītisko formulu
 - f''(x) vērtības, _x no a līdz b_; izmantojot skaitlisko atvasinājumu  
 
-Lai uzzīmētu funkcijas grafiku, funkciju var sadalīt mazākos intervālos un katrā mazajā intervālā aprēķināt funkcijas vērtību. Pēc tam, savienojot iegūtos punktus, var iegūt līkni, kas praktiski sakritīs ar funkcijas īsto grafiku.  
+Lai uzzīmētu funkcijas grafiku, funkciju var sadalīt mazākos intervālos un katrā mazajā intervālā aprēķināt funkcijas vērtību. Pēc tam, savienojot iegūtos punktus, var iegūt līkni, kas sakritīs ar funkcijas īsto grafiku.  
+Zemāk ir apskatāms grafiks, kur vairākas līknes sakrīt, bet īstenībā tās ir dažādas līknes, proti, iemesli, kāpēc līknes sakrīt: pirmkārt anal.f. un d.f. atvasinājuma vērtības ir aprēķinātas ļoti precīzi un līknes pārklājas un, otrkārt, hiperboliskā kosinusa otrās kārtas atvasinājums ir vienāds ar cosh(x), tātad ar sākotnējo funkciju, tāpēc tās līknes arī sakrīt.  
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/112925785/213799328-a1787d3c-fd7b-48f5-b252-c8bce3bb06e7.png">
 
