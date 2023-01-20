@@ -9,4 +9,4 @@ Programma sākas ar dialogu ar lietotāju. No lietotāja tiek sagaidīts ievadī
 Dotajā simbolu virknē tiek atrasts simbols ar vismazāko un vislielāko vērtību. Tie tiek saglabāti atsevišķos masīvos (ņēmot vērā arī to kārtas numuru). 
 Uz ekrāna lietotājam tiek izvadīta minimālā vērtība (saskaņā ar ASCII skaitļiem) un maksimālā vērtība (saskaņā ar ASCII skaitļiem).  
 Tālāk tiek aprēķināta simbolu summa, kuru pēc tam izdalot ar simbolu skaitu, tiek iegūta vidējā vērtība (saskaņā ar ASCII skaitļiem). 
-
+Lai noteiktu mediānu, masīvs tiek sakārtots augošā secībā. Tālāk tiek pārbaudīts, vai masīvs satur pāra sakitu elementu vai nepāra. Ja nepāra, tad tiek ņemts vidējais elements, savukārt, ja masīva garums ir pāra skaitlis, tad tiek rēķināta divu centra elementu vidējā vērtība.   
