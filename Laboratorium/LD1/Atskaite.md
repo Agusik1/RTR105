@@ -45,8 +45,6 @@ cosh(x) =>          -------
                            (2k-1)∗(2k)            
 
 ```
-![hiperboliskais_kosinuss_lab1](https://user-images.githubusercontent.com/112925785/213790974-13a88fcb-94da-4730-94e9-e2d43c413b8d.png)
-
 
 [^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 42.lpp.-43.lpp.
 
