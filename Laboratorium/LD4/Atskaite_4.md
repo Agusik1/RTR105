@@ -17,5 +17,5 @@ _Kādas tad metodes mēs izmantosim?_
 
 Funkcijas noteiktais integrālis ir laukuma vērtība starp f(x) un x asi. Algoritma sākumā lietotājam būs jāizvēlas a un b vērtības - intervāla sākumpunktu un beigu punktu -, kā arī precizitāti.  
 
-**Taisnstūra metodes pamatprincips:**
+**Taisnstūra metodes pamatprincips:**  
 Zemintegrāļa funkcijas ietvertais laukums tiek aizstāts ar taisntūra laukumiem, kuru platums ir h, bet augstumu nosaka funkcijas vērtība šajā intervālā. Visprecīzāko rezultātu iegūst, ja taisnstūra augstumu izvēlas intervāla vidū. Tad integrāļa aptuvenā vērtība tiek aprēķināta kā taisntūra laukumu summa, kur taisnstūra laukums ir garums pareizināts ar platumu. 
