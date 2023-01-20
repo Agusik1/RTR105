@@ -28,10 +28,10 @@ Zemintegrāļa funkcijas ietvertais laukums tiek aizstāts ar taisntūra laukumi
 
 _Zemāk tiek pārādīts, ko izvada programma, kā arī pierādījuma bilde no WolframAlpha, ka iegūtie rezultāti atbilst patiesībai:_  
 
+Kā redzams, šajā piemērā (tas ir tikai paraugs), tika aprēķināts noteiktais integrālis funkcijai y=cosh(x) intervālā no 0 līdz 5 ar precizitāti 0.001. Ar visām trīs aprēķinu metodēm noteiktā integrāļa aptuvenā vērtība ir 74.203, un WolframAlpha rezultāts ir 74.203.  
+
 <img width="416" alt="skaitliskā_integrēšana" src="https://user-images.githubusercontent.com/112925785/213693602-ad69dca4-a82e-48fe-a3e5-22ea21275203.png">
 <img width="336" alt="image" src="https://user-images.githubusercontent.com/112925785/213693655-b7f3286a-29a2-405c-8968-a6a4b82360dd.png">
-
-Kā redzams, šajā piemērā (tas ir tikai paraugs), tika aprēķināts noteiktais integrālis funkcijai y=cosh(x) intervālā no 0 līdz 5 ar precizitāti 0.001. Ar visām trīs aprēķinu metodēm noteiktā integrāļa aptuvenā vērtība ir 74.203, un WolframAlpha rezultāts ir 74.203.  
 
 <img width="957" alt="image" src="https://user-images.githubusercontent.com/112925785/213802863-95ceb5c6-92c7-450c-b663-2e101df217ef.png">
 
