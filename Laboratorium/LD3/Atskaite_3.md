@@ -16,7 +16,9 @@ Atsevišķā failā tiek saglabāta tabula - tajā tiek atspoguļotas:
 - f''(x) vērtības, _x no a līdz b_; izmantojot atvasinājuma analītisko formulu
 - f''(x) vērtības, _x no a līdz b_; izmantojot skaitlisko atvasinājumu  
 
-Lai uzzīmētu funkcijas grafiku, funkciju var sadalīt mazākos intervālos un katrā mazajā intervālā aprēķināt funkcijas vērtību. Pēc tam, savienojot iegūtos punktus, var iegūt līkni, kas praktiski sakritīs ar funkcijas īsto grafiku.
+Lai uzzīmētu funkcijas grafiku, funkciju var sadalīt mazākos intervālos un katrā mazajā intervālā aprēķināt funkcijas vērtību. Pēc tam, savienojot iegūtos punktus, var iegūt līkni, kas praktiski sakritīs ar funkcijas īsto grafiku.  
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/112925785/213799328-a1787d3c-fd7b-48f5-b252-c8bce3bb06e7.png">
 
 
 [^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 47.lpp.
