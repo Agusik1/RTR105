@@ -7,3 +7,6 @@ Skaitļu kārtošana var tikt realizēta ar dažādām metodēm. Šī laboratori
 
 Programma sākas ar dialogu ar lietotāju. No lietotāja tiek sagaidīts ievadīt simbolu (teksta) rindu bez atstarpēm. Kad tas ir izdarīts, simbolu rinda tiek saglabāta masīvā.  
 Dotajā simbolu virknē tiek atrasts simbols ar vismazāko un vislielāko vērtību. Tie tiek saglabāti atsevišķos masīvos (ņēmot vērā arī to kārtas numuru). 
+Uz ekrāna lietotājam tiek izvadīta minimālā vērtība (saskaņā ar ASCII skaitļiem) un maksimālā vērtība (saskaņā ar ASCII skaitļiem).  
+Tālāk tiek aprēķināta simbolu summa, kuru pēc tam izdalot ar simbolu skaitu, tiek iegūta vidējā vērtība (saskaņā ar ASCII skaitļiem). 
+
