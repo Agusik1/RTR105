@@ -15,7 +15,8 @@ Galu galā tiek izvadīta sakārtota simbolu rinda vienā rindā un atbilstoši 
 
 _Zemāk parādīts, ko izvada programma:_  
 
-<img width="689" alt="image" src="https://user-images.githubusercontent.com/112925785/213754481-87360c84-9451-4145-b220-37e5ef2a4a37.png">
+<img width="689" alt="image" src="https://user-images.githubusercontent.com/112925785/213754752-e12bd650-4638-41a4-885d-8d87bb16f318.png">
+
 
 
 [^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 56.lpp.-57.lpp.
