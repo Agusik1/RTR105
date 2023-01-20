@@ -46,5 +46,8 @@ cosh(x) =>          -------
 
 ```
 
+<img width="956" alt="image" src="https://user-images.githubusercontent.com/112925785/213791134-06262776-00ad-408c-b792-bfb102c1fd0a.png">
+
+
 [^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 42.lpp.-43.lpp.
 
