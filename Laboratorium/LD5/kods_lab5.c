@@ -74,7 +74,5 @@ printf("ASCII atbilstošas vērtības: ");
 
 for (i = 0; i < len; i++)
      printf("%d ", string[i]);
-     
-     printf("\n");
   }
  
