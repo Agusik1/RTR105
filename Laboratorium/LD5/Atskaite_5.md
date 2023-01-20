@@ -14,6 +14,7 @@ Tālāk tiek rēķināta moda. Katrs simbols tiek sakārtots masīvā un tiek sa
 Galu galā tiek izvadīta sakārtota simbolu rinda vienā rindā un atbilstoši ASCII skaitļi nākamajā rindā (rindas kārtošana alfabēta secībā).  
 
 _Zemāk parādīts, ko izvada programma:_
+<img width="689" alt="image" src="https://user-images.githubusercontent.com/112925785/213754481-87360c84-9451-4145-b220-37e5ef2a4a37.png">
 
 
 [^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 56.lpp.-57.lpp.
