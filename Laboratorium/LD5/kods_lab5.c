@@ -35,7 +35,7 @@ void main(){
   printf("\nJūsu ievadītā rinda ir %d simbolu gara.\n",i);
   printf("Minimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",min[1]+1,min[0],min[0]);
   printf("Maksimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",max[1]+1,max[0],max[0]);
-  printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %.2f\n",avg);
+  printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %.2f\n", avg);
          
 for(int j=0; j<i-1; j++){
   int Imin = j;
@@ -68,11 +68,13 @@ for(char l=0;l<=i;l++){
     
 printf("Simbolu rindas moda ir simbols \"%c\", kura vērtība saskaņā ar ASCII ir %d un tas atkārtojas %d reižu.\n",mod[n][0],mod[n][0],biezums);
 }
-         
- for(n=0;n<i;n++){
-  for(m=0;m<2;m++){
-   if(m==0)printf("%c\t",string[n]);
-   if(m==1)printf("%d\n",string[n]);
+     
+printf("\nSimbolu rinda augošā secībā: %s\n", string);
+printf("ASCII atbilstošas vērtības: ");
+
+for (i = 0; i < len; i++)
+     printf("%d ", string[i]);
+     
+     printf("\n");
   }
- }
-}
+ 
