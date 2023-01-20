@@ -7,7 +7,7 @@ void main(){
   char max[2];
   char i;
   int summa=0;
-  char skaits=0
+  char skaits=0;
     
  printf("Lūdzu ievadiet simbolu (teksta) rindu: ");
  scanf("%s", &string);
@@ -24,5 +24,6 @@ void main(){
   if(string[i]>max[0]){max[0]=string[i];max[1]=i;}
  }
   
-   
-  
+  printf("Jūsu ievadītā rinda ir %d simbolu gara.\n,i);
+  printf("Minimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",min[1]+1,min[0],min[0]);
+  printf("Maksimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",max[1]+1,max[0],max[0]);
