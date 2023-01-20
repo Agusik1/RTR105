@@ -20,6 +20,7 @@ Pirmajā attēlā parādīts piemērs, kur simbolu skaits ir nepāra:
 
 Otrajā attēlā parādīts piemērs, kur simbolu skaits ir pāra:  
 
+<img width="676" alt="image" src="https://user-images.githubusercontent.com/112925785/213766551-c1d2a897-8dba-4dc7-a8b8-8215add12d27.png">
 
 
 [^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 56.lpp.-57.lpp.
