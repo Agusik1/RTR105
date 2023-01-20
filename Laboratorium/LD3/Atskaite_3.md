@@ -19,4 +19,4 @@ Atsevišķā failā tiek saglabāta tabula - tajā tiek atspoguļotas:
 Lai uzzīmētu funkcijas grafiku, funkciju var sadalīt mazākos intervālos un katrā mazajā intervālā aprēķināt funkcijas vērtību. Pēc tam, savienojot iegūtos punktus, var iegūt līkni, kas praktiski sakritīs ar funkcijas īsto grafiku.
 
 
-[^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. -47.lpp.
+[^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 47.lpp.
