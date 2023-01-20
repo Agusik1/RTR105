@@ -22,5 +22,9 @@ Otrajā attēlā parādīts piemērs, kur simbolu skaits ir pāra:
 
 <img width="676" alt="image" src="https://user-images.githubusercontent.com/112925785/213766551-c1d2a897-8dba-4dc7-a8b8-8215add12d27.png">
 
+Un visbeidzot gnuplot datu histogramma:  
+
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/112925785/213809446-feaa9c54-5088-4004-b5e1-d710be910123.png">
+
 
 [^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 56.lpp.-57.lpp.
