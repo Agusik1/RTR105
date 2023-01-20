@@ -8,8 +8,7 @@ void main(){
   char i;
   int summa=0;
   char skaits=0;
-  int len, sum = 0;
-  float avg;
+  int len;
     
  printf("Lūdzu ievadiet simbolu (teksta) rindu: ");
  scanf("%[^\n]s", string);
@@ -24,18 +23,16 @@ void main(){
  for(i=0; string[i]!='\0';i++)
  {
   summa=summa+string[i];
-  sum += string[i];
+  
  printf("%d. simbola (\"%c\") ASCII vērtība ir %d\n", i+1,string[i],string[i]);
   if(string[i]<min[0]){min[0]=string[i];min[1]=i;}
   if(string[i]>max[0]){max[0]=string[i];max[1]=i;}
  }
  
- avg = (float)sum / len;
- 
   printf("\nJūsu ievadītā rinda ir %d simbolu gara.\n",i);
   printf("Minimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",min[1]+1,min[0],min[0]);
   printf("Maksimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",max[1]+1,max[0],max[0]);
-  printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %.2f\n", avg);
+  printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %.2f\n", (float)summa/i);
          
 for(int j=0; j<i-1; j++){
   int Imin = j;
@@ -47,9 +44,16 @@ for(int j=0; j<i-1; j++){
   string[j] = temp;
  }
          
-         
- printf("Simbolu rindas mediāna ir \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",string[i/2],string[i/2]);
-         
+if(string[(i-1)/2]<string[i/2])
+
+    {printf("Simbolu rindas zemākā mediāna ir \"%c\", kura vērtība saskaņā ar ASCII ir %d\n", string[(i-1)/2], string[(i-1)/2]);
+
+    printf("Simbolu rindas augstākā mediāna ir \"%c\", kura vērtība saskaņā ar ASCII ir %d\n", string[i/2], string[i/2]);}
+
+else
+
+    {printf("Simbolu rindas mediāna ir \"%c\", kura vērtība saskaņā ar ASCII ir %d\n", string[i/2], string[i/2]);}
+       
 char n=0,m=0;
 char mod[i][2];
 mod[0][0]=string[0];
@@ -66,7 +70,7 @@ for(char l=0;l<=i;l++){
  for(n=0;n<m;n++){
   if(biezums==mod[n][1])
     
-printf("Simbolu rindas moda ir simbols \"%c\", kura vērtība saskaņā ar ASCII ir %d un tas atkārtojas %d reižu.\n",mod[n][0],mod[n][0],biezums);
+printf("Simbolu rindas moda ir simbols \"%c\", kura vērtība saskaņā ar ASCII ir %d un tas atkārtojas %d reizes.\n",mod[n][0],mod[n][0],biezums);
 }
      
 printf("\nSimbolu rinda augošā secībā: %s\n", string);
