@@ -2,7 +2,7 @@
 #include<string.h>
 
 void main(){
-  char string[51];
+  char string[100];
   char min[2];
   char max[2];
   char i;
