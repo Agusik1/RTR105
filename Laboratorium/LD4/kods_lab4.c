@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <math.h>
 
+int main() {
+    double a, b, precision;
+    printf("Lūdzu ievadiet a vērtību: ");
+    scanf("%lf", &a);
+    printf("Lūdzu ievadiet b vērtību: ");
+    scanf("%lf", &b);
+    printf("Lūdzu ievadiet precizitāti: ");
+    scanf("%lf", &precision);
+
 double f(double x) {
     return cosh(x);
 }
@@ -28,15 +37,6 @@ double simpson_rule(double a, double b, double h) {
     }
     return area;
 }
-
-int main() {
-    double a, b, precision;
-    printf("Lūdzu ievadiet a vērtību: ");
-    scanf("%lf", &a);
-    printf("Lūdzu ievadiet b vērtību: ");
-    scanf("%lf", &b);
-    printf("Lūdzu ievadiet precizitāti: ");
-    scanf("%lf", &precision);
 
     double h = (b-a)/2;
     double prev_integral;
