@@ -20,5 +20,9 @@ void main(){
  {
   summa=summa+string[i];
  printf("%d. simbola (\"%c\") ASCII vērtība ir %d\n", i+1,string[i],string[i]);
+  if(string[i]<min[0]){min[0]=string[i];min[1]=i;}
+  if(string[i]>max[0]){max[0]=string[i];max[1]=i;}
+ }
+  
    
   
