@@ -35,7 +35,7 @@ void main(){
   printf("\nJūsu ievadītā rinda ir %d simbolu gara.\n",i);
   printf("Minimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",min[1]+1,min[0],min[0]);
   printf("Maksimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",max[1]+1,max[0],max[0]);
-  printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %.2f\n", avg);
+  printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %.2f\n",avg);
          
 for(int j=0; j<i-1; j++){
   int Imin = j;
