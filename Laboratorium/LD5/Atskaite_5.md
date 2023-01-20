@@ -5,7 +5,7 @@ Skaitļu kārtošana var tikt realizēta ar dažādām metodēm. Šī laboratori
 
 ## Algoritms
 
-Programma sākas ar dialogu ar lietotāju. No lietotāja tiek sagaidīts ievadīt simbolu (teksta) rindu bez atstarpēm. Kad tas ir izdarīts, simbolu rinda tiek saglabāta masīvā. Kā zināms, programmēšanā tiek izmantots ASCII kods, tāpēc programma katram simbolu rindas elementam piemeklēs atbilstošu ASCII skaitli.  
+Programma sākas ar dialogu ar lietotāju. No lietotāja tiek sagaidīts ievadīt simbolu (teksta) rindu bez atstarpēm (bez speciāliem simboliem, kā, piemēram, garumzīmes). Kad tas ir izdarīts, simbolu rinda tiek saglabāta masīvā. Kā zināms, programmēšanā tiek izmantots ASCII kods, tāpēc programma katram simbolu rindas elementam piemeklēs atbilstošu ASCII skaitli.  
 Iegūtais masīvs tiek sakārtots augošā secībā, izmantojot funkciju qsort. Tiek noteikts arī masīvā esošo simbolu skaits.  
 Tālāk dotajā simbolu virknē tiek atrasts simbols ar vismazāko un vislielāko vērtību, paņemot pirmo un pēdējo sakārtotā masīva elementus. Uz ekrāna lietotājam tiek izvadīta minimālā vērtība (saskaņā ar ASCII skaitļiem) un maksimālā vērtība (saskaņā ar ASCII skaitļiem).  
 Tālāk tiek aprēķināta simbolu summa, kuru pēc tam izdalot ar simbolu skaitu, tiek iegūta vidējā vērtība (saskaņā ar ASCII skaitļiem). 
