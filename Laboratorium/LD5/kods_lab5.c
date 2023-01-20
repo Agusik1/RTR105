@@ -29,4 +29,6 @@ void main(){
   printf("Maksimālā vērtība šajā rindā ir %d. simbolam \"%c\", kura vērtība saskaņā ar ASCII ir %d\n",max[1]+1,max[0],max[0]);
   printf("Vidējā vērtība saskaņā ar ASCII šajā rindā ir %d, kurai atbilst simbols \"%c\"\n",summa/i,summa/i);
          
+
+         
   
