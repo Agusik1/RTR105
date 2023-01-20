@@ -31,11 +31,11 @@ double simpson_rule(double a, double b, double h) {
 
 int main() {
     double a, b, precision;
-    printf("Enter value of a: ");
+    printf("Lūdzu ievadiet a vērtību: ");
     scanf("%lf", &a);
-    printf("Enter value of b: ");
+    printf("Lūdzu ievadiet b vērtību: ");
     scanf("%lf", &b);
-    printf("Enter value of precision: ");
+    printf("Lūdzu ievadiet precizitāti: ");
     scanf("%lf", &precision);
 
     double h = (b-a)/2;
@@ -46,7 +46,7 @@ int main() {
         h /= 2;
         integral = rectangle_rule(a, b, h);
     } while (fabs(integral - prev_integral) > precision);
-    printf("Area using rectangle rule: %lf\n", integral);
+    printf("Aprēķinātais rezultāts izmantojot taisnstūra likumu: %lf\n", integral);
 
     h = (b-a)/2;
     prev_integral = 0;
@@ -56,7 +56,7 @@ int main() {
         h /= 2;
         integral = trapezoidal_rule(a, b, h);
     } while (fabs(integral - prev_integral) > precision);
-    printf("Area using trapezoidal rule: %lf\n", integral);
+    printf("Aprēķinātais rezultāts izmantojot trapeces likumu: %lf\n", integral);
 
     h = (b-a)/2;
     prev_integral = 0;
@@ -66,7 +66,7 @@ int main() {
         h /= 2;
         integral = simpson_rule(a, b, h);
     } while (fabs(integral - prev_integral) > precision);
-    printf("Area using Simpson's rule: %lf\n", integral);
+    printf("Aprēķinātais rezultāts izmantojot Simpsona likumu: %lf\n", integral);
 
     return 0;
 }
