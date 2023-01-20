@@ -1,4 +1,4 @@
-# 1. laboratorijas darbs - Teilora Rindas
+# 1. laboratorijas darbs - Teilora Rindas [^1]
 ## Neliels ieskats teorijā :mag_right:  
 _Rakstot programmu, bieži vien ir nepieciešams zināt matemātiskās metodes. Izmantojot skaitļošanas matemātiskās metodes, ir iespējams izveidot vienkāršākas programmas un atrisināt uzdevumus._ 
 
@@ -46,4 +46,5 @@ cosh(x) =>          -------
 
 ```
 
+[^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 42.lpp.-43.lpp.
 
