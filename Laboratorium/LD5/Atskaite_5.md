@@ -14,8 +14,11 @@ Tālāk tiek rēķināta moda. Katrs simbols tiek sakārtots masīvā un tiek sa
 Galu galā tiek izvadīta sakārtota simbolu rinda vienā rindā un atbilstoši ASCII skaitļi nākamajā rindā (rindas kārtošana alfabēta secībā).  
 
 _Zemāk parādīts, ko izvada programma:_  
+Pirmajā attēlā parādīts piemērs, kur simbolu skaits ir nepāra:  
 
 <img width="689" alt="image" src="https://user-images.githubusercontent.com/112925785/213754752-e12bd650-4638-41a4-885d-8d87bb16f318.png">
+
+Otrajā attēlā parādīts piemērs, kur simbolu skaits ir pāra:  
 
 
 
