@@ -13,7 +13,8 @@ Lai noteiktu mediānu, masīvs tiek sakārtots augošā secībā. Tālāk tiek p
 Tālāk tiek rēķināta moda. Katrs simbols tiek sakārtots masīvā un tiek saskaitīts, cik reižu katrs simbols atkārtojas. Tālāk tiek noteikts, kāds ir lielākais atkārtošanas reižu skaits un atbildē kā moda tiek paziņoti visi simboli, kas ir atkārtojušies vislielāku reižu skaitu.  
 Galu galā tiek izvadīta sakārtota simbolu rinda vienā rindā un atbilstoši ASCII skaitļi nākamajā rindā (rindas kārtošana alfabēta secībā).  
 
-_Zemāk parādīts, ko izvada programma:_
+_Zemāk parādīts, ko izvada programma:_  
+
 <img width="689" alt="image" src="https://user-images.githubusercontent.com/112925785/213754481-87360c84-9451-4145-b220-37e5ef2a4a37.png">
 
 
