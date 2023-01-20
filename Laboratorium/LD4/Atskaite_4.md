@@ -33,5 +33,5 @@ _Zemāk tiek pārādīts, ko izvada programma, kā arī pierādījuma bilde no W
 
 Kā redzams, šajā piemērā (tas ir tikai paraugs), tika aprēķināts noteiktais integrālis funkcijai y=cosh(x) intervālā no 0 līdz 5 ar precizitāti 0.001. Ar visām trīs aprēķinu metodēm noteiktā integrāļa aptuvenā vērtība ir 74.203, un WolframAlpha rezultāts ir 74.203. 
 
-[^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. 
+[^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 56.lpp.-57.lpp.
 
