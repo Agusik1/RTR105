@@ -12,7 +12,6 @@ Zemāk tiks parādīts programmas rezultāts.
 
 _Ar doto sakņu meklēšanas metodi dažos gadījumos nav iespējams atrast sakni gadījumos, piemēram, ja dotajā intervālā ir pāra skaits sakņu, vai arī, ja abās intervāla pusēs funkcijas vērtība ir ar vienādu zīmi. Kā arī ar dihatomijas metodi tiek meklēta viena sakne, bet teorētiski iespējams, ka tā nav vienīgā._  
 
-<img width="947" alt="image" src="https://user-images.githubusercontent.com/112925785/213795040-9ad6326a-df57-4839-bda8-d07fe94fad45.png">
-
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/112925785/213795885-650394e8-9cfb-4bf4-b159-5192602959aa.png">
 
 [^1]: J.Ziemelis. Ievads algoritmu valodā C. 2006.g. RTU. Rīga. - 43.lpp.-45.lpp.
