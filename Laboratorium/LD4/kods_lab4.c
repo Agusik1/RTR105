@@ -1,58 +1,72 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
 
-int main(){
-  
-  float a, b, x, delta_x, summa=0, k;
-  int precizitate,n=0;
- 
- printf("Lūdzu ievadiet intervāla sākumpunktu: ");
- scanf("%lf",&a);
- printf("Lūdzu ievadiet intervāla beigu punktu: ");
- scanf("%lf",&b);
- printf("Lūdzu ievadiet intervāla precizitāti (cipari aiz komata): ");
- scanf("%d",&precizitate);
- delta_x=pow(10,-precizitate); 
-  
- if(a>b){
-   a=b-a;
-   b=b+a;
-   b=b-a;
- printf("Diemžēl Jūsu norādītais sākuma punkts bija lielāks par beigu punktu, tāpēc tie tika samainīti vietām. \n");
- }
-  
- //Aprēķins izmantojot taisnstūra likumu
-   
- x=a;
-  while(x<=b){
-    summa=summa+(cosh(x)*delta_x);
-    x+=delta_x;
-  }
- printf("Aprēķinātais rezultāts ar taisnstūra likumu: %f\n",summa);
-  
-  //Aprēķins izmantojot trapeces likumu
-    
- summa=0;
-  x=a;
-  while(x<=b){
-    summa=summa+(cosh(x)+(cosh(x+delta_x))*delta_x/2);
-    x+=delta_x;
-  }
- printf("Aprēķinātais rezultāts ar trapeces likumu: %f\n",summa);
-  
-  //Aprēķins izmantojot Simpsona likumu
-  
-  summa=0;
-  x=a;
-  while(x<b){
-    n++;
-    if(n==1)k=cosh(x);
-    else if((x+delta_x)>b)k=cosh(x);
-    else if(n%2==0)k=4*cosh(x);
-    else if(n%2==0)k=2*cosh(x);
-    summa=summa+k;
-    x+=delta_x;
-  }
-  summa=summa*delta_x/3;
-  printf("Aprēķinātais rezultāts ar Simpsona likumu: %f\n",summa);
+double f(double x) {
+    return cosh(x);
+}
+
+double rectangle_rule(double a, double b, double h) {
+    double area = 0;
+    for (double i = a; i < b; i += h) {
+        area += f(i)*h;
+    }
+    return area;
+}
+
+double trapezoidal_rule(double a, double b, double h) {
+    double area = 0;
+    for (double i = a; i < b; i += h) {
+        area += (f(i) + f(i+h)) * h / 2;
+    }
+    return area;
+}
+
+double simpson_rule(double a, double b, double h) {
+    double area = 0;
+    for (double i = a; i < b; i += h) {
+        area += (f(i) + 4*f(i+h/2) + f(i+h)) * h / 6;
+    }
+    return area;
+}
+
+int main() {
+    double a, b, precision;
+    printf("Enter value of a: ");
+    scanf("%lf", &a);
+    printf("Enter value of b: ");
+    scanf("%lf", &b);
+    printf("Enter value of precision: ");
+    scanf("%lf", &precision);
+
+    double h = (b-a)/2;
+    double prev_integral;
+    double integral = rectangle_rule(a, b, h);
+    do {
+        prev_integral = integral;
+        h /= 2;
+        integral = rectangle_rule(a, b, h);
+    } while (fabs(integral - prev_integral) > precision);
+    printf("Area using rectangle rule: %lf\n", integral);
+
+    h = (b-a)/2;
+    prev_integral = 0;
+    integral = trapezoidal_rule(a, b, h);
+    do {
+        prev_integral = integral;
+        h /= 2;
+        integral = trapezoidal_rule(a, b, h);
+    } while (fabs(integral - prev_integral) > precision);
+    printf("Area using trapezoidal rule: %lf\n", integral);
+
+    h = (b-a)/2;
+    prev_integral = 0;
+    integral = simpson_rule(a, b, h);
+    do {
+        prev_integral = integral;
+        h /= 2;
+        integral = simpson_rule(a, b, h);
+    } while (fabs(integral - prev_integral) > precision);
+    printf("Area using Simpson's rule: %lf\n", integral);
+
+    return 0;
 }
